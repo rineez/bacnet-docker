@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 # Alpine preferred but glibc is needed and popular workarounds don't do enough.
 
-ADD https://astuteinternet.dl.sourceforge.net/project/bacnet/bacnet-stack/bacnet-stack-0.8.6/bacnet-stack-0.8.6.tgz .
+ADD https://master.dl.sourceforge.net/project/bacnet/bacnet-stack/bacnet-stack-0.8.6/bacnet-stack-0.8.6.tgz?viasf=1 .
 ADD bacnet-wrapper /
 ADD simulator /
 
